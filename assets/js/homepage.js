@@ -1,5 +1,4 @@
 var getUserRepos = function (user) {
-    user = "microsoft"
     // format the github api url
     var apiUrl = "https://api.github.com/users/" + user + "/repos";
 
